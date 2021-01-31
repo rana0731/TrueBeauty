@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+
+.btn-teal{
+    @apply inline-block bg-teal-700 px-6 py-2 uppercase rounded-md shadow-lg text-sm text-white tracking-wider font-semibold;
+}
+
+.btn-teal:hover{
+    @apply bg-teal-600;
+}
+
+.btn-teal:focus{
+    @apply shadow-outline;
+}
+.btn-teal:active{
+    @apply bg-teal-800;
+}
+
+/* card-.... ni 40- ashigdlagdaj baigaa */
+.card-header{ 
+    height: 310px;
+}
+
+.card-header .hero {
+    z-index: -10;
+}
+
+.card-div-1{
+    @apply flex flex-shrink-0 place-self-center;
+}
+
+.card-div-2{
+    @apply relative block;
+}
+
+.card-div-3{
+   @apply absolute inset-0 opacity-90 p-4 hidden flex-col justify-start text-white cursor-pointer;
+}
+
+.card-title{
+    @apply text-lg font-bold mb-2;
+}
+
+.card-text{
+    @apply overflow-auto leading-normal select-none;
+}
+
+.card-pic{
+    @apply w-72;
+}
+
+
+.card-trailer{
+    height: 300px;
+}
+
+@screen md {
+    .btn-real {
+        @apply text-lg;
+    }
+
+    .card-header{
+        height: 500px;
+    }
+
+    .card-trailer{
+        height: 800px;
+    }
+};
+
+@screen xl {
+    .card-header{
+        height: 800px;
+    }
+
+};
+
+@tailwind utilities;

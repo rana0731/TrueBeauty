@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/styles.css" rel="stylesheet">
+        <title>TAILWIND Footer</title>
+    </head>
+    <body class="bg-pink-100 font-sans leading-normal tracking-normal">
+        <!-- Head start -->
+        <header class="card-header relative overflow-auto xl:overflow-hidden">
+
+            <!-- Navbar start -->
+            <nav class="flex flex-wrap items-center justify-between bg-pink-300 bg-opacity-30 w-full z-10 top-0 "> 
+                <div class="flex flex-row items-center flex-shrink-0 text-white ">
+                    <img class="pl-6 py-4 h-24 w-24" src="img/true-beauty/student1.png" alt=""/>
+                    <a class="uppercase pl-4 font-medium text-2xl text-white italic" href="#" name="home">TRUE BEAUTY</a>
+                </div>
+
+                <!-- Menu toggle button -->
+                <div class="block lg:hidden p-5">
+                    <button id="nav-toggle" class="p-2 border rounded-full text-white border-white hover:text-yellow-200 hover:border-white" >
+                        <svg class="fill-current h-3 w-3 stroke-2"
+                            viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Menu items -->
+                <div id="nav-content" class="hidden w-full lg:items-center lg:w-auto lg:block lg:pt-0">
+                    <ul class="uppercase text-purple-200 text-left lg:text-lg italic lg:flex flex-1">
+                        <li>
+                            <a href="#1" class="inline-block py-2 px-5 md:px-8  text-white hover:text-yellow-200">Жүжигчид</a>
+                        </li>
+                        <li>
+                            <a href="#2" class="inline-block py-2 px-5 md:px-8 text-white hover:text-yellow-200">Бичлэг</a>
+                        </li>
+                        <li>
+                            <a href="#3" class="inline-block py-2 px-5 md:px-8 text-white hover:text-yellow-200">Зураг</a>
+                        </li>
+                        <li>
+                            <a href="#4" class="inline-block py-2 px-5 md:px-8 text-white hover:text-yellow-200">Бидэнтэй холбогдох</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Navbar end -->
+
+            <!-- Hero start -->
+            <div class="hero absolute inset-0">
+                <img src="img/true-beauty/sky.jpg" class="w-full h-full object-cover object-center" alt=""/>
+            </div>
+            <div class="hero relative overflow-hidden sm:hidden">
+                <img src="img/true-beauty/header.jpg" class="w-full h-full object-cover object-center" alt=""/>
+            </div>
+            <div class="hero relative overflow-auto hidden sm:block">
+                <video   
+                    src="img/true-beauty/true-beauty.mp4" class="w-full h-full object-cover object-center"  
+                    autoplay muted loop>
+                </video> 
+            </div>  
+            <!-- Hero end -->
+        </header>
+        <!-- Head end -->
+        
+        <!-- Slider start -->
+            <!-- Navigation start -->
+            <div class="container">
+                <ul class="flex justify-center mb-4 md:justify-start w-screen bg-pink-300 opacity-60 italic text-xl">
+                    <a href="#home"><li class="md:ml-20 pr-2">Home</li></a>
+                    <li class="pr-2">|</li>
+                    <a name="1"><li class="font-bold text-pink-600 pr-2">Жүжигчид</li></a>
+                </ul>
+            </div>    
+            <!-- Navigation end -->
+
+        <!-- Cards -->
+        <div class="container flex items-center mx-auto">
+            <button class="h-8 w-8 text-pink-400 hidden md:block xl:hidden" id="prev-btn" type="button">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                </svg>
+            </button>
+            <div class="container mx-auto mb-10">
+                <div class="flex flex-col items-stretch justify-start space-y-6 md:flex-row md:overflow-hidden md:flex-no-wrap md:space-y-0 md:space-x-6 xl:ml-6" id="container">
+
+                    <!-- -------------------------- -->
+                    <div class="card-div-1">
+                        <div class="card-div-2 group">
+                            <div class="card-div-3 group-hover:flex bg-pink-400">
+                                <h3 class="card-title">
+                                    <a href="#" class="underline">Mun Ka-Young</a> as <br> Im Ju-Kyung
+                                </h3>
+                                <p class="card-text">
+                                    A student of Class 2-5 in Saebom High School who masters the art of makeup and transforms herself into a "goddess". Since childhood, Ju-kyung has been constantly discriminated by her family and bullied by her peers due to being perceived as ugly. This leads to her having an inferiority complex regarding her appearance and, worse, contemplating suicide. Eventually, she starts learning how to use makeup by binge-watching tutorial videos in the Internet. When she masters the art just before transferring to Saebom High School, her makeover proves to be transformative as she quickly rises to fame and her peers call her a "goddess". She tries her best to hide her real appearance from everyone but her classmate Su-ho, whom she had previously run into with her bare face a couple of times, later recognizes her beyond her makeup. In contrast to most girls, Ju-kyung is hooked to reading horror comic books and listening to heavy metal music.
+                                </p>
+                            </div>
+                            <img class="card-pic" src="img/true-beauty/kayoungg.jpg" alt=""/>
+                        </div>
+                    </div>
+                    <!-- -------------------------- -->
+                    <div class="card-div-1">
+                        <div class="card-div-2 group">
+                            <div class="card-div-3 group-hover:flex bg-purple-400">
+                                <h3 class="card-title">
+                                    <a href="#" class="underline">Cha Eun Woo</a> as <br> Lee Soo-Ho
+                                </h3>
+                                <p class="card-text">
+                                    A student of Class 2-5 in Saebom High School who is very popular for his dashingly handsome looks but harbors a dark secret from his past. Su-ho seems to have it all—looks, good grades, money and excellent basketball and Brazilian jiu-jitsu skills—but his dysfunctional family and a tragic incident a year ago turns him into an ice-cold boy who hates being the center of attraction. He first meets Ju-kyung at the top of a high-rise building, when she was contemplating suicide, and stops her from jumping off the building. He shares Ju-kyung's penchant for horror comic books, and he sometimes runs into her inside a comic book store they both frequent. He encounters the transformed Ju-kyung at Saebom High School and soon recognizes her beyond her makeup.
+                                </p>
+                            </div>
+                            <img class="card-pic" src="img/true-beauty/eunwooo.jpg" alt=""/>
+                        </div>
+                    </div>
+                    <!-- -------------------------- -->
+                    <div class="card-div-1">
+                        <div class="card-div-2 group">
+                            <div class="card-div-3 group-hover:flex bg-blue-400">
+                                <h3 class="card-title">
+                                    <a href="#" class="underline">Park Yoo-Na</a> as <br> Kang Soo-Jin 
+                                </h3>
+                                <p class="card-text">
+                                    A student of Class 2-5 in Saebom High School. Su-jin is a natural beauty and an intelligent girl who comes from a wealthy family. She becomes close friends with the transferee Ju-kyung at Saebom High School. She also has feelings for Su-ho, unbeknownst to him and the rest of the school. She is being forced by her parents to excel at school, to the extent that she is abused by her father for only placing second in school rankings.
+                                </p>
+                            </div>
+                            <img class="card-pic" src="img/true-beauty/yoonaa.jpg" alt=""/>
+                        </div>
+                    </div>
+                    <!-- -------------------------- -->
+                    <div class="card-div-1">
+                        <div class="card-div-2 group">
+                            <div class="card-div-3 group-hover:flex bg-indigo-400">
+                                <h3 class="card-title">
+                                    <a href="#" class="underline">Hwang In-Yeop</a> as <br> Han Seo-Joon
+                                </h3>
+                                <p class="card-text">
+                                    A student of Class 2-5 in Saebom High School; Su-ho's former best friend. Seo-jun is a handsome and equally-popular student at Saebom High School who, despite being a tough-looking "bad boy", is a nice and loving person, especially to his mother and sister. A tragic incident a year ago leads to him severing his friendship with Su-ho, with whom he has since become hostile with.
+                                </p>
+                            </div>
+                            <img class="card-pic" src="img/true-beauty/inyeopp.jpg" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <button class="h-8 w-8 text-pink-400 hidden md:block xl:hidden" id="next-btn" type="button">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+            </button>
+        </div>  
+        <!-- Slider end -->
+
+        <!-- About section start -->
+        <div class="container mx-auto mb-10 px-10 italic text-center bg-opacity-50">
+            <h2 class="text-2xl text-pink-500 font-bold font-serif">"Жинхэнэ Гоо Үзэсгэлэн"</h2>
+            <p class="text-pink-600 max-w-xl mx-auto text-opacity-70">
+                Им ЖуКён бол ахлах сургуулийн сурагч. Бага байхаасаа л өөрийн царайндаа сэтгэл дундуур байсан тэрээр өөрийн царайгаа нууж, бусдад хөөрхөн харагдахын тулд нүүр будалтаар өөрийнхөө жинхэнэ царайг нууж иржээ. Нүүр будалтаас болж хөөрхөн харагдах түүний өмнө хоёр залуу гарч ирснээр адармаатай харилцаа эхэлнэ.
+            </p>
+            <a href="#" class="text-purple-400 my-2 font-bold inline-block">Дэлгэрэнгүй +</a>
+        </div>
+        
+        <!-- New trailer section start -->
+        <div class="card-trailer relative flex flex-wrap items-center">
+            <div class="absolute inset-0 w-full h-full opacity-70">
+                <img src="img/true-beauty/section-1.jpg" class="object-cover w-full h-full" alt=""/>
+            </div>
+            <div class="container  absolute inset-x-0 bottom-0 mx-auto  max-w-full bg-pink-100 bg-opacity-60 text-center text-pink-600 flex flex-wrap z-10">
+                <h3 class="italic font-serif font-bold mb-2 mt-2 leading-tight w-full text-2xl md:text-4xl">Тун удахгүй</h3>
+                <div class="mx-auto mb-4 md:mb-6">
+                    <a href="#" class="inline-flex items-center justify-center w-auto">
+                        <svg class="fill-current w-8 h-8 mx-2" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" >
+                            <path d="M20 33l12-9-12-9v18zm4-29C12.95 4 4 12.95 4 21s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm0 36c-8.82 0-16-7.18-16-16S15.18 8 24 8s16 7.18 16 16-7.18 16-16 16z"></path>
+                        </svg>
+                        <span class="border-b border-black md:text-xl">Видеог тоглуулах</span>
+                    </a>
+                </div>
+                <div class="w-full">
+                    <a href="#" name="2" class="inline-block items-center justify-center border font-bold bg-transparent ml-5 mb-3 md:px-8 md:py-2 px-4 py-1 rounded hover:bg-white hover:text-pink-500">Бүх трэйлерүүд +</a>
+                </div>
+            </div>
+        </div>
+        <!-- New trailer section end -->
+
+        <!-- Navigation start -->
+        <div class="container">
+            <ul class="flex justify-center mb-4 md:justify-start w-screen bg-pink-300 opacity-60 italic text-xl">
+                <a href="#home"><li class="md:ml-20 pr-2">Home</li></a>
+                <li class="pr-2">|</li>
+                <a name="3"><li class="font-bold text-pink-600 pr-2">Зураг</li></a>
+            </ul>
+        </div>    
+        <!-- Navigation end -->
+
+        <!-- Cards-2 -->
+        <div class="container flex items-center mx-auto">
+            <button class="h-8 w-8 text-pink-400 block" id="prev" type="button">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                </svg>
+            </button>
+            <div class="container mx-auto mb-5">
+                <div class="flex items-stretch justify-start flex-row overflow-hidden flex-no-wrap space-x-4" id="container1">
+                    <div class="card-div-1">
+                        <div class="card-div-2">
+                            <img class="h-72" src="img/true-beauty/zurag-5.jpg" alt=""/>
+                        </div>
+                    </div>
+                    <div class="card-div-1">
+                        <div class="card-div-2">
+                            <img class="h-72" src="img/true-beauty/zurag-6.jpg" alt=""/>
+                        </div>
+                    </div>
+                    <div class="card-div-1">
+                        <div class="card-div-2">
+                            <img class="h-72" src="img/true-beauty/zurag-7.jpg" alt=""/>
+                        </div>
+                    </div>
+                    <div class="card-div-1">
+                        <div class="card-div-2">
+                            <img class="h-72" src="img/true-beauty/zurag-8.jpg" alt=""/>
+                        </div>
+                    </div>
+                    <div class="card-div-1">
+                        <div class="card-div-2">
+                            <img class="h-72" src="img/true-beauty/zurag-1.jpg" alt=""/>
+                        </div>
+                    </div>
+                    <div class="card-div-1">
+                        <div class="card-div-2">
+                            <img class="h-72" src="img/true-beauty/zurag-2.jpg" alt=""/>
+                        </div>
+                    </div>
+                    <div class="card-div-1">
+                        <div class="card-div-2">
+                            <img class="h-72" src="img/true-beauty/zurag-3.jpg" alt=""/>
+                        </div>
+                    </div>
+                    <div class="card-div-1">
+                        <div class="card-div-2">
+                            <img class="h-72" src="img/true-beauty/zurag-4.jpg" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="h-8 w-8 text-pink-400 block" id="next" type="button">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+            </button>
+        </div>  
+
+        <!-- Footer start -->
+        <footer class="container flex flex-wrap mx-auto max-w-full bg-pink-400 text-pink-100 pt-6 px-6 md:px-12">
+
+            <!-- Me -->
+            <div class="mb-10 md:mb-6 flex items-center justify-start italic bg-pink-300  text-pink-600">
+                <img class="h-48 shadow-xl" src="img/true-beauty/me.jpg"/>
+                <div class="items-center justify-start m-5">
+                    <a name="4"><h1 class="text-xl text-center font-bold">Rana</h1></a>
+                    <p>"Олонлог Эгзэ" сургуулийн 11а ангийн сурагч Ф. Анар</p>
+                    <div class="p-3 flex items-center justify-center">
+                        <a href="https://www.facebook.com/profile.php?id=100011001273990">
+                            <svg class="fill-current text-pink-600  w-4 h-4 mr-1 md:mx-2 opacity-75 hover:opacity-90" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>Facebook icon</title><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                        <a href="https://www.instagram.com/ranadnarana/">
+                            <svg class="fill-current text-pink-600 w-4 h-4 mr-1 md:mx-2 opacity-75 hover:opacity-90" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram icon</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg>
+                        </a>
+                    </div>
+                </div> 
+            </div>
+
+            <!-- Medeelel avah -->
+            <div class="xl:ml-10 mb-6 pl-4 border-l border-white">
+                <p class="italic text-lg">True Beauty</p>
+                <h3 class="text-2xl font-serif italic pb-6 font-semibold md:text-3xl">
+                    Мэдээлэл авах
+                </h3>
+                <form action="#">
+                    <div class="flex items-center justify-start items-around flex-wrap">
+                        <input type="email" class="border text-pink-400 border-white bg-pink-200 py-1 px-4 w-36 md:w-44 mr-4" placeholder="И-мэйл хаяг"/>
+                        <input type="submit" class="bg-transparent border border-white px-8 py-1 inline-block cursor-pointer hover:bg-white hover:text-pink-600" value="Бүртгүүлэх">
+                    </div>
+                    <div class="flex items-center justify-start flex-wrap mt-5">
+                        <p class="opacity-75"> &copy; 2021 "True Beauty", rana. All rights reserved.</p>
+                        <div class="flex items-center justify-start ml-2">
+                            <a href="https://www.facebook.com/tvNDrama">
+                                <svg class="fill-current text-white w-4 h-4 mr-2 md:mx-2 opacity-75 hover:opacity-90" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>Facebook icon</title><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                            </a>
+                            <a href="https://www.instagram.com/tvndrama.official/">
+                                <svg class="fill-current text-white w-4 h-4 mr-2 md:mx-2 opacity-75 hover:opacity-90" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram icon</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg>
+                            </a>
+                            <a href="https://www.youtube.com/c/CJENMDRAMA">
+                                <svg class="fill-current text-white w-4 h-4 mr-2 md:mx-2 opacity-75 hover:opacity-90" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>YouTube icon</title><path d="M23.499 6.203a3.008 3.008 0 00-2.089-2.089c-1.87-.501-9.4-.501-9.4-.501s-7.509-.01-9.399.501a3.008 3.008 0 00-2.088 2.09A31.258 31.26 0 000 12.01a31.258 31.26 0 00.523 5.785 3.008 3.008 0 002.088 2.089c1.869.502 9.4.502 9.4.502s7.508 0 9.399-.502a3.008 3.008 0 002.089-2.09 31.258 31.26 0 00.5-5.784 31.258 31.26 0 00-.5-5.808zm-13.891 9.4V8.407l6.266 3.604z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            
+        </footer>
+        <!-- Footer end -->
+
+        <script>
+            // Javascript to toggle the menu
+            document.getElementById("nav-toggle").onclick = function(){
+                document.getElementById("nav-content").classList.toggle("hidden");
+            }
+        </script>
+
+        <!-- slider controls -->
+        <script>
+            var button_next = document.getElementById("next-btn");
+            button_next.onclick = function(){
+                var container = document.getElementById("container");
+                sideScroll(container, "right", 25, 300, 50);
+            };
+
+            var button_prev = document.getElementById("prev-btn");
+            button_prev.onclick = function(){
+                var container = document.getElementById("container");
+                sideScroll(container, "left", 25, 300, 50);
+            };
+
+            function sideScroll(element, direction, speed, distance, step){
+                scrollAmount = 0;
+                var slideTimer = setInterval(function(){
+                    if(direction == "left"){
+                        element.scrollLeft -= step;
+                    }else{
+                        element.scrollLeft += step;
+                    }
+                    scrollAmount += step;
+                    if(scrollAmount >= distance){
+                        window.clearInterval(slideTimer);
+                    }
+                }, speed);
+            }
+        </script>
+
+        <script>
+            var next = document.getElementById("next");
+            next.onclick = function(){
+                var container = document.getElementById("container1");
+                sideScroll(container, "right", 25, 300, 50);
+            };
+
+            var prev = document.getElementById("prev");
+            prev.onclick = function(){
+                var container = document.getElementById("container1");
+                sideScroll(container, "left", 25, 300, 50);
+            };
+
+            function sideScroll(element1, direction1, speed1, distance1, step1){
+                scrollAmount = 0;
+                var slideTimer = setInterval(function(){
+                    if(direction1 == "left"){
+                        element1.scrollLeft -= step1;
+                    }else{
+                        element1.scrollLeft += step1;
+                    }
+                    scrollAmount += step1;
+                    if(scrollAmount >= distance1){
+                        window.clearInterval(slideTimer);
+                    }
+                }, speed1);
+            }
+        </script>
+    </body>
+</html>
